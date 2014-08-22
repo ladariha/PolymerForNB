@@ -1,4 +1,4 @@
-# Polymer code completion in NetBeans IDE
+# Polymer code completion in NetBeans IDE 8.0+
 
 This is a simple workaround to get code completion for Polymer (http://www.polymer-project.org/) in NetBeans' HTML5 project.
 
