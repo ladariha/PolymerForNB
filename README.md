@@ -1,15 +1,15 @@
 # Polymer code completion in NetBeans IDE 8.0+
 
-This is a simple workaround to get code completion for Polymer (http://www.polymer-project.org/) in NetBeans' HTML5 project.
+This is a simple workaround to get code completion for Polymer (http://www.polymer-project.org/) in NetBeans in HTML files.
 
 ## How to use it
 1. Close NetBeans IDE
-2. Download the ```customs.json``` file and place it into ```nbproject``` folder which is located in your HTML5 project folder (if you already have such file, you need to "merge" them, it is plain JSON)
+2. Download the ```customs.json``` file and place it into ```nbproject``` folder which is located in your project folder (if you already have such file, you need to "merge" them, it is plain JSON)
 3. Start NetBeans IDE
 4. Try code completion in HTML5 file, it should offer Polymer's elements and attributes
 
 ## Why it works?
-If you are using HTML5 project type in NetBeans, you can learn the editor your own custom HTML elements and their attributes. The process is following:
+If you are using HTML5 in NetBeans, you can learn the editor your own custom HTML elements and their attributes. The process is following:
 
 1. Type your own custom tag in HTML file, e.g. ```<myelement foo="1"></myelement>```
 2. NetBeans will underline this element and mark it as error
