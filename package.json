@@ -1,0 +1,19 @@
+{
+"name": "polymer-for-nb",
+        "version": "1.0.0",
+        "description": "This is a simple workaround to get code completion for Polymer (http://www.polymer-project.org/) in NetBeans in HTML files",
+        "main": "src/index.js",
+        "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "repository": {
+        "type": "git",
+                "url": "git+https://github.com/ladariha/PolymerForNB.git"
+        },
+        "author": "vladimir.riha@gmail.com",
+        "license": "ISC",
+        "bugs": {
+        "url": "https://github.com/ladariha/PolymerForNB/issues"
+        },
+        "homepage": "https://github.com/ladariha/PolymerForNB#readme"
+}
