@@ -13,13 +13,15 @@ const net = require("./net");
     simplify() {
         let o = {};
         o.name = this.name;
-        o.description = this.desc.replace(/</g, "&lt").replace(/>/g, "&gt;");
+        o.description = this.desc.replace(/</g, "&lt;").replace(/>/g, "&gt;");
         o.attributes = {};
 
         for (let i = 0; i < this.properties.length; i++) {
+            let d = this.properties[i].desc || "";
+            d = d.replace(/</g, "&lt;").replace(/>/g, "&gt;")
             o.attributes[this.properties[i].name] = {
                 type: this.properties[i].type,
-                description: this.properties[i].desc.replace(/</g, "&lt").replace(/>/g, "&gt;") || ""
+                description: d
             };
         }
 
