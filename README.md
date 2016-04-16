@@ -5,7 +5,7 @@ This is a simple workaround to get code completion for Polymer (http://www.polym
 
 ## How to use it
 1. Close NetBeans IDE
-2. Download the ```customs.json``` (located in dist folder) file and place it into ```nbproject``` folder which is located in your project folder (if you already have such file, you need to "merge" them, it is plain JSON)
+2. Download the ```customs.json``` (located https://github.com/ladariha/PolymerForNB/blob/master/dist/customs.json) file and place it into ```nbproject``` folder which is located in your project folder (if you already have such file, you need to "merge" them, it is plain JSON)
 3. Start NetBeans IDE
 4. Try code completion in HTML5 file, it should offer Polymer's elements and attributes
 
@@ -21,3 +21,10 @@ If you are using HTML5 in NetBeans, you can learn the editor your own custom HTM
 7. Click on the bulb icon again
 8. NetBeans will offer you to declare attribute ```foo``` as either attribute of the ```myelement``` or as a global attribute (for all elements). Select some option
 9. Try code completion for the ```myelement```, you should see it in code completion list. The same should work for the attribute as well.
+
+## How to locally create a new customs.js file?
+1. Clone this repository or download it as archived ZIP
+2. open terminal, navigate to the cloned (or extracted ZIP) directory
+3. Run command ```node src/index.js```
+4. Once the command is finished, a new version of customs.js will be created in ```dist``` directory
+
